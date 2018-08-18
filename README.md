@@ -1,2 +1,0 @@
-# Examen_II_Progra_III
-Examen_II_Progra_III

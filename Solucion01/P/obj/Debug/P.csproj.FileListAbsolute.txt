@@ -1,0 +1,60 @@
+c:\users\administrador\documents\visual studio 2015\Projects\EjemploThread\P\bin\roslyn\csc.exe
+c:\users\administrador\documents\visual studio 2015\Projects\EjemploThread\P\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\administrador\documents\visual studio 2015\Projects\EjemploThread\P\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\administrador\documents\visual studio 2015\Projects\EjemploThread\P\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\administrador\documents\visual studio 2015\Projects\EjemploThread\P\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\administrador\documents\visual studio 2015\Projects\EjemploThread\P\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\administrador\documents\visual studio 2015\Projects\EjemploThread\P\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\administrador\documents\visual studio 2015\Projects\EjemploThread\P\bin\roslyn\System.Collections.Immutable.dll
+c:\users\administrador\documents\visual studio 2015\Projects\EjemploThread\P\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\administrador\documents\visual studio 2015\Projects\EjemploThread\P\bin\roslyn\vbc.exe
+c:\users\administrador\documents\visual studio 2015\Projects\EjemploThread\P\bin\roslyn\VBCSCompiler.exe
+c:\users\administrador\documents\visual studio 2015\Projects\EjemploThread\P\bin\roslyn\VBCSCompiler.exe.config
+c:\users\administrador\documents\visual studio 2015\Projects\EjemploThread\P\bin\P.dll.config
+c:\users\administrador\documents\visual studio 2015\Projects\EjemploThread\P\bin\P.dll
+c:\users\administrador\documents\visual studio 2015\Projects\EjemploThread\P\bin\P.pdb
+c:\users\administrador\documents\visual studio 2015\Projects\EjemploThread\P\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\administrador\documents\visual studio 2015\Projects\EjemploThread\P\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\administrador\documents\visual studio 2015\Projects\EjemploThread\P\obj\Debug\P.csprojResolveAssemblyReference.cache
+c:\users\administrador\documents\visual studio 2015\Projects\EjemploThread\P\obj\Debug\P.dll
+c:\users\administrador\documents\visual studio 2015\Projects\EjemploThread\P\obj\Debug\P.pdb
+C:\Users\Laboratorio\Downloads\EjemploThread\P\bin\roslyn\csc.exe
+C:\Users\Laboratorio\Downloads\EjemploThread\P\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Laboratorio\Downloads\EjemploThread\P\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Laboratorio\Downloads\EjemploThread\P\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Laboratorio\Downloads\EjemploThread\P\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Laboratorio\Downloads\EjemploThread\P\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Laboratorio\Downloads\EjemploThread\P\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Laboratorio\Downloads\EjemploThread\P\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Laboratorio\Downloads\EjemploThread\P\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Laboratorio\Downloads\EjemploThread\P\bin\roslyn\vbc.exe
+C:\Users\Laboratorio\Downloads\EjemploThread\P\bin\roslyn\VBCSCompiler.exe
+C:\Users\Laboratorio\Downloads\EjemploThread\P\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Laboratorio\Downloads\EjemploThread\P\bin\P.dll.config
+C:\Users\Laboratorio\Downloads\EjemploThread\P\bin\P.dll
+C:\Users\Laboratorio\Downloads\EjemploThread\P\bin\P.pdb
+C:\Users\Laboratorio\Downloads\EjemploThread\P\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Laboratorio\Downloads\EjemploThread\P\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Laboratorio\Downloads\EjemploThread\P\obj\Debug\P.csprojResolveAssemblyReference.cache
+C:\Users\Laboratorio\Downloads\EjemploThread\P\obj\Debug\P.dll
+C:\Users\Laboratorio\Downloads\EjemploThread\P\obj\Debug\P.pdb
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion01\P\bin\roslyn\csc.exe
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion01\P\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion01\P\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion01\P\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion01\P\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion01\P\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion01\P\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion01\P\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion01\P\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion01\P\bin\roslyn\vbc.exe
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion01\P\bin\roslyn\VBCSCompiler.exe
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion01\P\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion01\P\bin\P.dll.config
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion01\P\bin\P.dll
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion01\P\bin\P.pdb
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion01\P\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion01\P\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion01\P\obj\Debug\P.csprojResolveAssemblyReference.cache
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion01\P\obj\Debug\P.dll
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion01\P\obj\Debug\P.pdb
