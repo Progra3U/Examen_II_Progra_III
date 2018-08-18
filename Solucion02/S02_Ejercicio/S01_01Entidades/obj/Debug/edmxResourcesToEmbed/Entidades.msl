@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ExamenIPrograIIIModelStoreContainer" CdmEntityContainer="ExamenIPrograIIIEntities">
+    <EntitySetMapping Name="Perfiles1">
+      <EntityTypeMapping TypeName="ExamenIPrograIIIModel.Perfiles">
+        <MappingFragment StoreEntitySet="Perfiles">
+          <ScalarProperty Name="codPerfil" ColumnName="codPerfil" />
+          <ScalarProperty Name="nombrePerfil" ColumnName="nombrePerfil" />
+          <ScalarProperty Name="activo" ColumnName="activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuarios1">
+      <EntityTypeMapping TypeName="ExamenIPrograIIIModel.Usuarios">
+        <MappingFragment StoreEntitySet="Usuarios">
+          <ScalarProperty Name="nombreUsuario" ColumnName="nombreUsuario" />
+          <ScalarProperty Name="pass" ColumnName="pass" />
+          <ScalarProperty Name="activo" ColumnName="activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="UsuariosxPerfiles" TypeName="ExamenIPrograIIIModel.UsuariosxPerfiles" StoreEntitySet="UsuariosxPerfiles">
+      <EndProperty Name="Perfiles">
+        <ScalarProperty Name="codPerfil" ColumnName="codPerfil" />
+      </EndProperty>
+      <EndProperty Name="Usuarios">
+        <ScalarProperty Name="nombreUsuario" ColumnName="nombreUsuario" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

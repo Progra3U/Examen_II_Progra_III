@@ -1,0 +1,16 @@
+C:\Users\Www-R\Documents\GitHub\Examen_I_Progra_III\Solucion1\S01_Ejercicio\S01_01Entidades\bin\Debug\S01_01Entidades.dll.config
+C:\Users\Www-R\Documents\GitHub\Examen_I_Progra_III\Solucion1\S01_Ejercicio\S01_01Entidades\bin\Debug\S01_01Entidades.dll
+C:\Users\Www-R\Documents\GitHub\Examen_I_Progra_III\Solucion1\S01_Ejercicio\S01_01Entidades\bin\Debug\S01_01Entidades.pdb
+C:\Users\Www-R\Documents\GitHub\Examen_I_Progra_III\Solucion1\S01_Ejercicio\S01_01Entidades\bin\Debug\EntityFramework.dll
+C:\Users\Www-R\Documents\GitHub\Examen_I_Progra_III\Solucion1\S01_Ejercicio\S01_01Entidades\bin\Debug\EntityFramework.xml
+C:\Users\Www-R\Documents\GitHub\Examen_I_Progra_III\Solucion1\S01_Ejercicio\S01_01Entidades\obj\Debug\S01_04Entidades.csprojResolveAssemblyReference.cache
+C:\Users\Www-R\Documents\GitHub\Examen_I_Progra_III\Solucion1\S01_Ejercicio\S01_01Entidades\obj\Debug\S01_01Entidades.dll
+C:\Users\Www-R\Documents\GitHub\Examen_I_Progra_III\Solucion1\S01_Ejercicio\S01_01Entidades\obj\Debug\S01_01Entidades.pdb
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion02\S02_Ejercicio\S01_01Entidades\bin\Debug\S01_01Entidades.dll.config
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion02\S02_Ejercicio\S01_01Entidades\bin\Debug\S01_01Entidades.dll
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion02\S02_Ejercicio\S01_01Entidades\bin\Debug\S01_01Entidades.pdb
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion02\S02_Ejercicio\S01_01Entidades\bin\Debug\EntityFramework.dll
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion02\S02_Ejercicio\S01_01Entidades\bin\Debug\EntityFramework.xml
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion02\S02_Ejercicio\S01_01Entidades\obj\Debug\S01_04Entidades.csprojResolveAssemblyReference.cache
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion02\S02_Ejercicio\S01_01Entidades\obj\Debug\S01_01Entidades.dll
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion02\S02_Ejercicio\S01_01Entidades\obj\Debug\S01_01Entidades.pdb

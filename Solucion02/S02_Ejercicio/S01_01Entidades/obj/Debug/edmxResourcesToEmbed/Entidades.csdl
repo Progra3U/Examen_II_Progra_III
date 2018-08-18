@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ExamenIPrograIIIModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Perfiles">
+    <Key>
+      <PropertyRef Name="codPerfil" />
+    </Key>
+    <Property Name="codPerfil" Type="Int32" Nullable="false" />
+    <Property Name="nombrePerfil" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="activo" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Perfiles1" Relationship="Self.FK_Perfiles_Perfiles1" FromRole="Perfiles" ToRole="Perfiles1" />
+    <NavigationProperty Name="Perfile1" Relationship="Self.FK_Perfiles_Perfiles1" FromRole="Perfiles1" ToRole="Perfiles" />
+    <NavigationProperty Name="Usuarios" Relationship="Self.UsuariosxPerfiles" FromRole="Perfiles" ToRole="Usuarios" />
+  </EntityType>
+  <EntityType Name="Usuarios">
+    <Key>
+      <PropertyRef Name="nombreUsuario" />
+    </Key>
+    <Property Name="nombreUsuario" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="pass" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="activo" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Usuarios1" Relationship="Self.FK_Usuarios_Usuarios" FromRole="Usuarios" ToRole="Usuarios1" />
+    <NavigationProperty Name="Usuario1" Relationship="Self.FK_Usuarios_Usuarios" FromRole="Usuarios1" ToRole="Usuarios" />
+    <NavigationProperty Name="Perfiles" Relationship="Self.UsuariosxPerfiles" FromRole="Usuarios" ToRole="Perfiles" />
+  </EntityType>
+  <Association Name="FK_Perfiles_Perfiles1">
+    <End Role="Perfiles" Type="ExamenIPrograIIIModel.Perfiles" Multiplicity="1" />
+    <End Role="Perfiles1" Type="ExamenIPrograIIIModel.Perfiles" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Perfiles">
+        <PropertyRef Name="codPerfil" />
+      </Principal>
+      <Dependent Role="Perfiles1">
+        <PropertyRef Name="codPerfil" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Usuarios_Usuarios">
+    <End Role="Usuarios" Type="ExamenIPrograIIIModel.Usuarios" Multiplicity="1" />
+    <End Role="Usuarios1" Type="ExamenIPrograIIIModel.Usuarios" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Usuarios">
+        <PropertyRef Name="nombreUsuario" />
+      </Principal>
+      <Dependent Role="Usuarios1">
+        <PropertyRef Name="nombreUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="UsuariosxPerfiles">
+    <End Role="Perfiles" Type="ExamenIPrograIIIModel.Perfiles" Multiplicity="*" />
+    <End Role="Usuarios" Type="ExamenIPrograIIIModel.Usuarios" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="ExamenIPrograIIIEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Perfiles1" EntityType="ExamenIPrograIIIModel.Perfiles" />
+    <EntitySet Name="Usuarios1" EntityType="ExamenIPrograIIIModel.Usuarios" />
+    <AssociationSet Name="FK_Perfiles_Perfiles1" Association="Self.FK_Perfiles_Perfiles1">
+      <End Role="Perfiles" EntitySet="Perfiles1" />
+      <End Role="Perfiles1" EntitySet="Perfiles1" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Usuarios_Usuarios" Association="Self.FK_Usuarios_Usuarios">
+      <End Role="Usuarios" EntitySet="Usuarios1" />
+      <End Role="Usuarios1" EntitySet="Usuarios1" />
+    </AssociationSet>
+    <AssociationSet Name="UsuariosxPerfiles" Association="Self.UsuariosxPerfiles">
+      <End Role="Perfiles" EntitySet="Perfiles1" />
+      <End Role="Usuarios" EntitySet="Usuarios1" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
