@@ -33,15 +33,15 @@
                         AllowPaging="true" Width="100%" PageSize="5" >
                         <Columns>
                             <asp:CommandField ShowSelectButton="true" SelectText="Seleccione" />
-                            <asp:BoundField DataField="Nombre" HeaderText="Nombre" />
-                            <asp:BoundField DataField="Identificacion" HeaderText="Identificacion" />
-                            <asp:BoundField DataField="Posicion" HeaderText="Posicion" />
-                            <asp:BoundField DataField="Area" HeaderText="Area" />
-                            <asp:BoundField DataField="Area" HeaderText="Area" />
-                            <asp:BoundField DataField="FechaEntrada" HeaderText="FechaEntrada" />
-                            <asp:BoundField DataField="HoraEntrada" HeaderText="HoraEntrada" />
-                            <asp:BoundField DataField="FechaSalida" HeaderText="FechaSalida" />
-                            <asp:BoundField DataField="HoraSalida" HeaderText="HoraSalida" />
+                            <asp:BoundField DataField="codEntrada" HeaderText="Nombre" />
+                            <asp:BoundField DataField="nombreEmpleado" HeaderText="Nombre" />
+                            <asp:BoundField DataField="identificacion" HeaderText="Identificacion" />
+                            <asp:BoundField DataField="posicion" HeaderText="Posicion" />
+                            <asp:BoundField DataField="area" HeaderText="Area" />
+                            <asp:BoundField DataField="fechaEntrada" HeaderText="FechaEntrada" />
+                            <asp:BoundField DataField="horaEntrada" HeaderText="HoraEntrada" />
+                            <asp:BoundField DataField="fechaSalida" HeaderText="FechaSalida" />
+                            <asp:BoundField DataField="horaSalida" HeaderText="HoraSalida" />
                         </Columns>
                     <AlternatingRowStyle BackColor="LightBlue" />
                     <RowStyle BackColor ="LightGray" />

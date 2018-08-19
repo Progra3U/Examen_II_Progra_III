@@ -15,37 +15,32 @@ namespace S03_01Presentacion
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            this.CargarPersonal();
+            if (!IsPostBack)
+            {
+                this.CargarLista();
+            }
         }
 
-        #region CargarPersonal
-        private void CargarPersonal()
+        #region CargarLista
+
+        private void CargarLista()
         {
             try
             {
-                List<RegistroPersonal> lstPersonas = Logica.ObtenerPersonal();
+                List<RegistroPersonal> lstperfiles;
+                lstperfiles = S02_02LogicaNegocio.Logica.ObtenerPersonal();
 
-                if (gvRegistros.Rows.Count > 0)
-                {
-                    gvRegistros.DataSource = null; //Limpia el gridview
-                    //gvRegistros.Refresh();
-                }
-                this.gvRegistros.DataSource = lstPersonas;
-                //this.gvRegistros.Refresh();
+                ViewState["lstperfiles"] = lstperfiles;
+                this.gvRegistros.DataSource = lstperfiles;
+                this.gvRegistros.DataBind();
             }
             catch (Exception ex)
             {
-                //MessageBox.Show(ex.Message);
+                //throw ex;
+                Page.ClientScript.RegisterStartupScript(this.GetType(), "Scripts", "<script>alert('Problema al cargar Fuente de Recursos');</script>");
             }
         }
-        #endregion
 
-        
-        #region Load del form
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            this.CargarPersonal();
-        }
         #endregion
 
         #region Limpiar
@@ -76,7 +71,7 @@ namespace S03_01Presentacion
                 personal.fechaSalida = "";
                 personal.horaSalida = "";
                 S02_02LogicaNegocio.Logica.ModificarHoraEntrada(personal);
-                CargarPersonal(); //Limpiar();
+                //CargarPersonal(); //Limpiar();
                 Page.ClientScript.RegisterStartupScript(this.GetType(), "Scripts", "<script>alert('Entrada registrada con exito');</script>");
 
             }
@@ -104,7 +99,7 @@ namespace S03_01Presentacion
                 personal.horaSalida = hora;
 
                 S02_02LogicaNegocio.Logica.ModificarHoraSalida(personal);
-                CargarPersonal(); //Limpiar();
+                //CargarPersonal(); //Limpiar();
                 Page.ClientScript.RegisterStartupScript(this.GetType(), "Scripts", "<script>alert('Salida Registrada con exito');</script>");
 
             }
