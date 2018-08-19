@@ -37,7 +37,7 @@ namespace S03_01Presentacion {
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox posicion;
+        protected global::System.Web.UI.WebControls.DropDownList posicion;
         
         /// <summary>
         /// Control area.
@@ -46,7 +46,7 @@ namespace S03_01Presentacion {
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox area;
+        protected global::System.Web.UI.WebControls.DropDownList area;
         
         /// <summary>
         /// Control Entrada.

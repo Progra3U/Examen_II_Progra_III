@@ -108,5 +108,33 @@ namespace S03_01Presentacion
                 Page.ClientScript.RegisterStartupScript(this.GetType(), "Scripts", "<script>alert('Error al Gestionar Salida');</script>");
             }
         }
+
+        protected void gvRegistros_PageIndexChanging(object sender, GridViewPageEventArgs e)
+        {
+            this.gvRegistros.PageIndex = e.NewPageIndex;
+            this.CargarLista();
+        }
+
+        protected void gvRegistros_SelectedIndexChanging(object sender, GridViewSelectEventArgs e)
+        {
+            try
+            {
+                List<RegistroPersonal> lstperfiles = (List<RegistroPersonal>)ViewState["lstperfiles"];
+
+                int indice = e.NewSelectedIndex;
+
+                this.Nombre_Empleado.Text = lstperfiles[indice].nombreEmpleado.ToString();
+                this.identificacion.Text = lstperfiles[indice].identificacion.ToString();
+
+                this.posicion.Text = lstperfiles[indice].posicion.ToString();
+                this.area.Text = lstperfiles[indice].area.ToString();
+            }
+            catch (Exception ex)
+            {
+                //throw ex;
+                Page.ClientScript.RegisterStartupScript(this.GetType(), "Scripts", "<script>alert('Error al mostrar Informacion');</script>");
+            }
+
+        }
     }
 }

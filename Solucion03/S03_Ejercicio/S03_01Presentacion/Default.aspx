@@ -13,10 +13,27 @@
                     <asp:TextBox ID="identificacion" Text="" runat="server"></asp:TextBox><br /> 
 
                     <asp:Label Text="Posicion:" runat="server"></asp:Label><br />
-                    <asp:TextBox ID="posicion" Text="" runat="server"></asp:TextBox><br /> 
+                    <asp:DropDownList ID="posicion" runat="server">
+                    <asp:ListItem Value="Seleccione" Selected="True">Seleccione</asp:ListItem>
+                     <asp:ListItem Value="Adminstracion">Adminstracion</asp:ListItem>
+                     <asp:ListItem Value="Finanzas">Finanzas</asp:ListItem>
+                     <asp:ListItem Value="Mercadeo">Mercadeo</asp:ListItem>
+                     <asp:ListItem Value="Soporte" >Soporte</asp:ListItem>
+                     <asp:ListItem Value="Mantenimiento">Mantenimiento</asp:ListItem>
+                    <asp:ListItem Value="Seguridad">Seguridad</asp:ListItem>
+                    </asp:DropDownList><br />
 
                     <asp:Label Text="Area:" runat="server"></asp:Label><br />
-                    <asp:TextBox ID="area" Text="" runat="server"></asp:TextBox><br /> 
+                    <asp:DropDownList ID="area" runat="server">
+                    <asp:ListItem Value="Seleccione" Selected="True">Seleccione</asp:ListItem>
+                     <asp:ListItem Value="Adminstracion">Adminstracion</asp:ListItem>
+                     <asp:ListItem Value="Finanzas">Finanzas</asp:ListItem>
+                     <asp:ListItem Value="Mercadeo">Mercadeo</asp:ListItem>
+                     <asp:ListItem Value="Soporte" >Soporte</asp:ListItem>
+                     <asp:ListItem Value="Mantenimiento">Mantenimiento</asp:ListItem>
+                    <asp:ListItem Value="Seguridad">Seguridad</asp:ListItem>
+                    </asp:DropDownList>
+
                 </form>
             </p>
             <p>
@@ -30,7 +47,9 @@
                 <tr>
                     <td>
                         <asp:GridView ID="gvRegistros" runat="server" AutoGenerateColumns="false" 
-                        AllowPaging="true" Width="100%" PageSize="5" >
+                        AllowPaging="true" Width="100%" PageSize="5" 
+                        OnPageIndexChanging="gvRegistros_PageIndexChanging" 
+                        OnSelectedIndexChanging="gvRegistros_SelectedIndexChanging" >
                         <Columns>
                             <asp:CommandField ShowSelectButton="true" SelectText="Seleccione" />
                             <asp:BoundField DataField="codEntrada" HeaderText="Nombre" />
