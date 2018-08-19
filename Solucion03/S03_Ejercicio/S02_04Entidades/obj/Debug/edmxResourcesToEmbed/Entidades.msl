@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ExamenIPrograIIIModelStoreContainer" CdmEntityContainer="ExamenIPrograIIIEntities">
+    <EntitySetMapping Name="RegistroPersonals">
+      <EntityTypeMapping TypeName="ExamenIPrograIIIModel.RegistroPersonal">
+        <MappingFragment StoreEntitySet="RegistroPersonal">
+          <ScalarProperty Name="horaSalida" ColumnName="horaSalida" />
+          <ScalarProperty Name="fechaSalida" ColumnName="fechaSalida" />
+          <ScalarProperty Name="horaEntrada" ColumnName="horaEntrada" />
+          <ScalarProperty Name="fechaEntrada" ColumnName="fechaEntrada" />
+          <ScalarProperty Name="area" ColumnName="area" />
+          <ScalarProperty Name="posicion" ColumnName="posicion" />
+          <ScalarProperty Name="identificacion" ColumnName="identificacion" />
+          <ScalarProperty Name="nombreEmpleado" ColumnName="nombreEmpleado" />
+          <ScalarProperty Name="codEntrada" ColumnName="codEntrada" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

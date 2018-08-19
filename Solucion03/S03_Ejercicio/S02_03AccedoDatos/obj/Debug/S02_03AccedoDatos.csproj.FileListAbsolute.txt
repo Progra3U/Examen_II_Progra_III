@@ -1,0 +1,10 @@
+C:\Users\Www-R\Documents\GitHub\Examen_I_Progra_III\Solucion2\S02_Ejercicio\S02_03AccedoDatos\bin\Debug\S02_03AccedoDatos.dll.config
+C:\Users\Www-R\Documents\GitHub\Examen_I_Progra_III\Solucion2\S02_Ejercicio\S02_03AccedoDatos\bin\Debug\S02_03AccedoDatos.dll
+C:\Users\Www-R\Documents\GitHub\Examen_I_Progra_III\Solucion2\S02_Ejercicio\S02_03AccedoDatos\bin\Debug\S02_03AccedoDatos.pdb
+C:\Users\Www-R\Documents\GitHub\Examen_I_Progra_III\Solucion2\S02_Ejercicio\S02_03AccedoDatos\bin\Debug\S02_04Entidades.dll
+C:\Users\Www-R\Documents\GitHub\Examen_I_Progra_III\Solucion2\S02_Ejercicio\S02_03AccedoDatos\bin\Debug\EntityFramework.dll
+C:\Users\Www-R\Documents\GitHub\Examen_I_Progra_III\Solucion2\S02_Ejercicio\S02_03AccedoDatos\bin\Debug\S02_04Entidades.pdb
+C:\Users\Www-R\Documents\GitHub\Examen_I_Progra_III\Solucion2\S02_Ejercicio\S02_03AccedoDatos\bin\Debug\EntityFramework.xml
+C:\Users\Www-R\Documents\GitHub\Examen_I_Progra_III\Solucion2\S02_Ejercicio\S02_03AccedoDatos\obj\Debug\S02_03AccedoDatos.csprojResolveAssemblyReference.cache
+C:\Users\Www-R\Documents\GitHub\Examen_I_Progra_III\Solucion2\S02_Ejercicio\S02_03AccedoDatos\obj\Debug\S02_03AccedoDatos.dll
+C:\Users\Www-R\Documents\GitHub\Examen_I_Progra_III\Solucion2\S02_Ejercicio\S02_03AccedoDatos\obj\Debug\S02_03AccedoDatos.pdb

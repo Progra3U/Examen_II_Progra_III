@@ -1,0 +1,8 @@
+C:\Users\Www-R\Documents\GitHub\Examen_I_Progra_III\Solucion2\S02_Ejercicio\S02_04Entidades\bin\Debug\S02_04Entidades.dll.config
+C:\Users\Www-R\Documents\GitHub\Examen_I_Progra_III\Solucion2\S02_Ejercicio\S02_04Entidades\bin\Debug\S02_04Entidades.dll
+C:\Users\Www-R\Documents\GitHub\Examen_I_Progra_III\Solucion2\S02_Ejercicio\S02_04Entidades\bin\Debug\S02_04Entidades.pdb
+C:\Users\Www-R\Documents\GitHub\Examen_I_Progra_III\Solucion2\S02_Ejercicio\S02_04Entidades\bin\Debug\EntityFramework.dll
+C:\Users\Www-R\Documents\GitHub\Examen_I_Progra_III\Solucion2\S02_Ejercicio\S02_04Entidades\bin\Debug\EntityFramework.xml
+C:\Users\Www-R\Documents\GitHub\Examen_I_Progra_III\Solucion2\S02_Ejercicio\S02_04Entidades\obj\Debug\S02_04Entidades.csprojResolveAssemblyReference.cache
+C:\Users\Www-R\Documents\GitHub\Examen_I_Progra_III\Solucion2\S02_Ejercicio\S02_04Entidades\obj\Debug\S02_04Entidades.dll
+C:\Users\Www-R\Documents\GitHub\Examen_I_Progra_III\Solucion2\S02_Ejercicio\S02_04Entidades\obj\Debug\S02_04Entidades.pdb
