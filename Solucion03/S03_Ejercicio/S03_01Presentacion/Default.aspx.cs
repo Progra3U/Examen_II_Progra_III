@@ -46,10 +46,10 @@ namespace S03_01Presentacion
         #region Limpiar
         private void Limpiar()
         {
-            Nombre_Empleado.Text = "";
-            identificacion.Text = "";
-            posicion.Text = "";
-            area.Text = "";
+            Nombre_Empleado.Text = String.Empty;
+            identificacion.Text = String.Empty;
+            posicion.Text = "Seleccione";
+            area.Text = "Seleccione";
         }
         #endregion
 
@@ -71,7 +71,7 @@ namespace S03_01Presentacion
                 personal.fechaSalida = "";
                 personal.horaSalida = "";
                 S02_02LogicaNegocio.Logica.ModificarHoraEntrada(personal);
-                //CargarPersonal(); //Limpiar();
+                CargarLista(); Limpiar();
                 Page.ClientScript.RegisterStartupScript(this.GetType(), "Scripts", "<script>alert('Entrada registrada con exito');</script>");
 
             }
@@ -99,7 +99,7 @@ namespace S03_01Presentacion
                 personal.horaSalida = hora;
 
                 S02_02LogicaNegocio.Logica.ModificarHoraSalida(personal);
-                //CargarPersonal(); //Limpiar();
+                CargarLista(); Limpiar();
                 Page.ClientScript.RegisterStartupScript(this.GetType(), "Scripts", "<script>alert('Salida Registrada con exito');</script>");
 
             }

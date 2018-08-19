@@ -10,17 +10,15 @@
                     <asp:TextBox ID="Nombre_Empleado" Text="" runat="server"></asp:TextBox><br />   
 
                     <asp:Label Text="Identificacion:" runat="server"></asp:Label><br />
-                    <asp:TextBox ID="identificacion" Text="" runat="server"></asp:TextBox><br /> 
+                    <asp:TextBox ID="identificacion" MaxLength="9" Text="" runat="server"></asp:TextBox><br /> 
 
                     <asp:Label Text="Posicion:" runat="server"></asp:Label><br />
                     <asp:DropDownList ID="posicion" runat="server">
                     <asp:ListItem Value="Seleccione" Selected="True">Seleccione</asp:ListItem>
-                     <asp:ListItem Value="Adminstracion">Adminstracion</asp:ListItem>
-                     <asp:ListItem Value="Finanzas">Finanzas</asp:ListItem>
-                     <asp:ListItem Value="Mercadeo">Mercadeo</asp:ListItem>
-                     <asp:ListItem Value="Soporte" >Soporte</asp:ListItem>
-                     <asp:ListItem Value="Mantenimiento">Mantenimiento</asp:ListItem>
-                    <asp:ListItem Value="Seguridad">Seguridad</asp:ListItem>
+                     <asp:ListItem Value="Gerente">Gerente</asp:ListItem>
+                     <asp:ListItem Value="Jefe">Jefe</asp:ListItem>
+                     <asp:ListItem Value="Supervisor">Supervisor</asp:ListItem>
+                     <asp:ListItem Value="Usuario Regular" >Usuario Regular</asp:ListItem>
                     </asp:DropDownList><br />
 
                     <asp:Label Text="Area:" runat="server"></asp:Label><br />
@@ -52,7 +50,7 @@
                         OnSelectedIndexChanging="gvRegistros_SelectedIndexChanging" >
                         <Columns>
                             <asp:CommandField ShowSelectButton="true" SelectText="Seleccione" />
-                            <asp:BoundField DataField="codEntrada" HeaderText="Nombre" />
+                            <asp:BoundField DataField="codEntrada" HeaderText="Codigo" />
                             <asp:BoundField DataField="nombreEmpleado" HeaderText="Nombre" />
                             <asp:BoundField DataField="identificacion" HeaderText="Identificacion" />
                             <asp:BoundField DataField="posicion" HeaderText="Posicion" />
