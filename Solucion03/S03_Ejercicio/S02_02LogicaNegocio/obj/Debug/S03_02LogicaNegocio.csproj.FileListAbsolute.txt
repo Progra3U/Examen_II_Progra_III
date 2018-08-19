@@ -1,0 +1,11 @@
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion03\S03_Ejercicio\S02_02LogicaNegocio\bin\Debug\S02_02LogicaNegocio.dll
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion03\S03_Ejercicio\S02_02LogicaNegocio\bin\Debug\S02_02LogicaNegocio.pdb
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion03\S03_Ejercicio\S02_02LogicaNegocio\bin\Debug\S02_03AccedoDatos.dll
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion03\S03_Ejercicio\S02_02LogicaNegocio\bin\Debug\S02_04Entidades.dll
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion03\S03_Ejercicio\S02_02LogicaNegocio\bin\Debug\EntityFramework.dll
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion03\S03_Ejercicio\S02_02LogicaNegocio\bin\Debug\S02_03AccedoDatos.pdb
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion03\S03_Ejercicio\S02_02LogicaNegocio\bin\Debug\S02_04Entidades.pdb
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion03\S03_Ejercicio\S02_02LogicaNegocio\bin\Debug\EntityFramework.xml
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion03\S03_Ejercicio\S02_02LogicaNegocio\obj\Debug\S03_02LogicaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion03\S03_Ejercicio\S02_02LogicaNegocio\obj\Debug\S02_02LogicaNegocio.dll
+C:\Users\Www-R\Documents\GitHub\Examen_II_Progra_III\Solucion03\S03_Ejercicio\S02_02LogicaNegocio\obj\Debug\S02_02LogicaNegocio.pdb
